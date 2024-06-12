@@ -1,16 +1,17 @@
 # TaskFlow - Serverless Web Application for Task Management
 
 ## Description
-TaskFlow is a serverless web application designed for efficient task management. It allows users to create, view, update, and delete tasks with a user-friendly interface. The application leverages various AWS services to ensure scalability, security, and reliability.
+TaskFlow is a serverless web application designed for efficient task management, leveraging modern cloud computing technologies to provide a scalable and secure platform for users to manage their tasks seamlessly. This project demonstrates the integration of various AWS services to build a full-stack application with an automated CI/CD pipeline.
 
 ## Features
-1. User Registration and Authentication (AWS Cognito)
-2. Task Management: Create, Read, Update, Delete (CRUD)
-3. Responsive Design for Desktop and Mobile
-4. Secure API Endpoints with AWS API Gateway and Lambda
-5. Scalable Data Storage with Amazon DynamoDB
-6. Global Content Delivery with AWS S3 and CloudFront
-7. Application Monitoring and Logging with AWS CloudWatch
+1. User Authentication: Secure user registration and login using AWS Cognito.
+2. Task Management: Create, read, update, and delete tasks with a user-friendly interface.
+3. Responsive Design: Accessible on both desktop and mobile devices.
+4. Continuous Integration and Deployment: Automated build, testing, and deployment using GitHub Actions.
+5. Scalable Backend: Serverless architecture with AWS Lambda and API Gateway.
+6. Efficient Data Storage: Task data stored in Amazon DynamoDB.
+7. Global Content Delivery: Frontend hosted on AWS S3 with CloudFront for fast and reliable access.
+8. Monitoring and Logging: Application performance monitored with AWS CloudWatch.
 
 ## Technologies Used
 - Frontend: React.js
@@ -18,6 +19,8 @@ TaskFlow is a serverless web application designed for efficient task management.
 - Database: Amazon DynamoDB
 - Authentication: AWS Cognito
 - Hosting: AWS S3, AWS CloudFront
+- CI/CD: GitHub Actions
+- Containerization: Docker
 - Monitoring: AWS CloudWatch
 
 ## Architecture
